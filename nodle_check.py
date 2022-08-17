@@ -21,7 +21,7 @@ subscan_token = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
 # send /start to @Nodle_Wallet_Checker on telegram
 # get chat_id from https://api.telegram.org/bot5578491077:AAG4dWtmcdE2bCyCxULHP_xCRAgQraISMJE/getUpdates
 # or create own - https://core.telegram.org/bots#6-botfather
-telegram_chatid = '780484036'
+telegram_chatid = '123456789'
 #dont edit or create own
 telegram_token = '5578491077:AAG4dWtmcdE2bCyCxULHP_xCRAgQraISMJE'
 
