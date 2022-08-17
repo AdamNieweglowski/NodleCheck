@@ -12,7 +12,7 @@ Wszelakie sugestie i uwagi mile widziane - https://discord.com/channels/78305682
 
 W celu zutomatyzacji skrypt odpalamy w cronie (tu co 4h)
 
-0 */4 * * * /usr/bin/python3 /opt/nodle/nodle_check.py
+0 */4 * * * /usr/bin/python3 /opt/nodle/nodlecheck.py
 
 
 
