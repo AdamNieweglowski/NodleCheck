@@ -11,8 +11,12 @@ W pliku wallets.txt umieszamy opis koparki oddzielony średnikiem od klucza publ
 Wszelakie sugestie i uwagi mile widziane - https://discord.com/channels/783056826618216498/887572254987288606 
 
 W celu zutomatyzacji skrypt odpalamy w cronie (tu co 4h)
+
 0 */4 * * * /usr/bin/python3 /opt/nodle/nodle_check.py
 
 
+
+
 Sponsor / Support 
+
 NODLE address: 4mfeRtTcRtaguaq7swCbDKdEzm4ELeJPmW2M9aifpDHbVk9C
