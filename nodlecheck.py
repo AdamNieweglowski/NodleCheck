@@ -37,8 +37,8 @@ def get_transfers_data(wallet):
 
     res = requests.post(url, headers=headers, data=payload)
     res_obj = json.loads(res.text)
-    #limit in subscan free plan 3req/s
-    time.sleep(0.4)
+    #limit in subscan free plan 5req/s
+    time.sleep(0.3)
     return res_obj
 
 def get_last_trans(wallet):
