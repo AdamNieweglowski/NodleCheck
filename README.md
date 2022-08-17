@@ -7,6 +7,7 @@ Skrypt sprawdza kiedy ostatni raz pojawiła się nagroda dla zdefiniowanych port
 
 ### Wymagane ustawienia w konfiguracji:
 `subscan_token` - należy zarejestrować się na https://pro.subscan.io/login (wystarczy darmowy plan) i skorzystać z wygenerowanego tokena api 
+
 ![subscan api key](doc/subscan.png)
 
 `telegram_chatid` - wysłanie do bota http://t.me/Nodle_Wallet_Checker_bot komendy **/start**, następnie otwarcie w przeglądarce https://api.telegram.org/bot5578491077:AAG4dWtmcdE2bCyCxULHP_xCRAgQraISMJE/getUpdates i pobranie wartości chat[id] 
