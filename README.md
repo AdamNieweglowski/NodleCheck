@@ -29,14 +29,16 @@ W pliku wallets.txt umieszamy opis koparki oddzielony średnikiem od klucza **pu
 
 
 ### Cron
-W celu automatyzacji skrypt odpalamy w cronie (np w przykładzie co 4h)
+W celu automatyzacji skrypt odpalamy w cronie (np w przykładzie co 4h, `crontab -e`)
 
-`0 */4 * * * /usr/bin/python3 /opt/nodle/nodlecheck.py`
+`0 */4 * * * cd /opt/nodle && /usr/bin/python3 /opt/nodle/nodlecheck.py`
 
+`/opt/nodle` zamień na swój katalog gdzieś wrzuciłes skrypt
 
+### Uwagi / Sugestie
 Wszelakie sugestie i uwagi mile widziane - znajdziesz mnie na https://discord.com/channels/783056826618216498/887572254987288606 
 
 
 ### Sponsor
-
+Czujesz potrzebę wsparcia ...
 NODLE address: 4mfeRtTcRtaguaq7swCbDKdEzm4ELeJPmW2M9aifpDHbVk9C
